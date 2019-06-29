@@ -7,10 +7,10 @@
 Обратиться к функции get_roots и передать ей параметры a, b и c из квадратного уравнения.
 
 ```python
-insert quadratic_equation
+import quadratic_equation
 
 
-result=quadratic_equation.get_roots(5, 1, 1)
+result = quadratic_equation.get_roots(5, 1, 1)
 
 ```
 
