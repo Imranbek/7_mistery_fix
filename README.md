@@ -6,10 +6,11 @@
 
 Обратиться к функции get_roots и передать ей параметры a, b и c из квадратного уравнения.
 
-```bash
+```python
 insert quadratic_equation
-a,b,c=5,1,1
-quadratic_equation_result=quadratic_equation.get_roots(a, b, c)
+
+
+result=quadratic_equation.get_roots(5, 1, 1)
 
 ```
 
@@ -17,6 +18,12 @@ quadratic_equation_result=quadratic_equation.get_roots(a, b, c)
 В случае, если у уравнения только один корень, значене j будет равно None.
 
 Запуск на Windows происходит аналогично.
+
+Для запуска тестов необходимо инсталировать Python 3.5+ с модулем pytest и запустить скрипт в терминале:
+
+```bash
+$ pytest tests.py
+```
 
 # Цели проекта
 
